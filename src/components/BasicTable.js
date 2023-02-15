@@ -4,11 +4,11 @@ import { COLUMNS } from './columns';
 import { useTable } from 'react-table';
 import './style.css';
 
-const BasicTable = () => {
+export const BasicTable = () => {
     const columns = useMemo(() => COLUMNS, []);
     const data = useMemo(() => MOCK_DATA, []);
 
-    const tableInstance = useTable({ column: COLUMNS, data: MOCK_DATA });
+    const tableInstance = useTable({ columns, data });
 
     const { getTableProps, getTableBodyProps, headerGroups, rows, prepareRow } =
         tableInstance;
@@ -19,7 +19,7 @@ const BasicTable = () => {
                 {headerGroups.map((headerGroup) => (
                     <tr {...headerGroup.getHeaderGroupProps()}>
                         {headerGroup.headers.map((column) => (
-                            <th {...column.getHeaderGroupProps()}>
+                            <th {...column.getHeaderProps()}>
                                 {column.render('Header')}
                             </th>
                         ))}
@@ -40,7 +40,7 @@ const BasicTable = () => {
                 })}
             </tbody>
         </table>
+
     );
 };
 
-export default BasicTable;
