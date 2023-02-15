@@ -33,9 +33,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
+            ["@date-io/date-fns", "virtual:1496ece63da824a9ba3363ceca21345f6b059faf7a1ccfe083db90341c958a7ea684a0b5a1b7d276f323cd149544eda95dcababae0b58e83581e013b60efbb29#npm:1.3.13"],\
             ["@testing-library/jest-dom", "npm:5.16.5"],\
             ["@testing-library/react", "virtual:1496ece63da824a9ba3363ceca21345f6b059faf7a1ccfe083db90341c958a7ea684a0b5a1b7d276f323cd149544eda95dcababae0b58e83581e013b60efbb29#npm:13.4.0"],\
             ["@testing-library/user-event", "virtual:1496ece63da824a9ba3363ceca21345f6b059faf7a1ccfe083db90341c958a7ea684a0b5a1b7d276f323cd149544eda95dcababae0b58e83581e013b60efbb29#npm:13.5.0"],\
+            ["date-fns", "npm:2.29.3"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:1496ece63da824a9ba3363ceca21345f6b059faf7a1ccfe083db90341c958a7ea684a0b5a1b7d276f323cd149544eda95dcababae0b58e83581e013b60efbb29#npm:18.2.0"],\
             ["react-scripts", "virtual:1496ece63da824a9ba3363ceca21345f6b059faf7a1ccfe083db90341c958a7ea684a0b5a1b7d276f323cd149544eda95dcababae0b58e83581e013b60efbb29#npm:5.0.1"],\
@@ -3205,6 +3207,38 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             "@types/postcss",\
             "postcss-selector-parser",\
             "postcss"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@date-io/core", [\
+        ["npm:1.3.13", {\
+          "packageLocation": "./.yarn/cache/@date-io-core-npm-1.3.13-f9e14f1859-5a9e9d1de2.zip/node_modules/@date-io/core/",\
+          "packageDependencies": [\
+            ["@date-io/core", "npm:1.3.13"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@date-io/date-fns", [\
+        ["npm:1.3.13", {\
+          "packageLocation": "./.yarn/cache/@date-io-date-fns-npm-1.3.13-24e371b8dc-0026c0e538.zip/node_modules/@date-io/date-fns/",\
+          "packageDependencies": [\
+            ["@date-io/date-fns", "npm:1.3.13"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:1496ece63da824a9ba3363ceca21345f6b059faf7a1ccfe083db90341c958a7ea684a0b5a1b7d276f323cd149544eda95dcababae0b58e83581e013b60efbb29#npm:1.3.13", {\
+          "packageLocation": "./.yarn/__virtual__/@date-io-date-fns-virtual-72789875cc/0/cache/@date-io-date-fns-npm-1.3.13-24e371b8dc-0026c0e538.zip/node_modules/@date-io/date-fns/",\
+          "packageDependencies": [\
+            ["@date-io/date-fns", "virtual:1496ece63da824a9ba3363ceca21345f6b059faf7a1ccfe083db90341c958a7ea684a0b5a1b7d276f323cd149544eda95dcababae0b58e83581e013b60efbb29#npm:1.3.13"],\
+            ["@date-io/core", "npm:1.3.13"],\
+            ["@types/date-fns", null],\
+            ["date-fns", "npm:2.29.3"]\
+          ],\
+          "packagePeers": [\
+            "@types/date-fns",\
+            "date-fns"\
           ],\
           "linkType": "HARD"\
         }]\
@@ -7206,6 +7240,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["abab", "npm:2.0.6"],\
             ["whatwg-mimetype", "npm:2.3.0"],\
             ["whatwg-url", "npm:8.7.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["date-fns", [\
+        ["npm:2.29.3", {\
+          "packageLocation": "./.yarn/cache/date-fns-npm-2.29.3-fef7e3c72c-e01cf5b62a.zip/node_modules/date-fns/",\
+          "packageDependencies": [\
+            ["date-fns", "npm:2.29.3"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -14696,9 +14739,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["react-table-tutorial", "workspace:."],\
+            ["@date-io/date-fns", "virtual:1496ece63da824a9ba3363ceca21345f6b059faf7a1ccfe083db90341c958a7ea684a0b5a1b7d276f323cd149544eda95dcababae0b58e83581e013b60efbb29#npm:1.3.13"],\
             ["@testing-library/jest-dom", "npm:5.16.5"],\
             ["@testing-library/react", "virtual:1496ece63da824a9ba3363ceca21345f6b059faf7a1ccfe083db90341c958a7ea684a0b5a1b7d276f323cd149544eda95dcababae0b58e83581e013b60efbb29#npm:13.4.0"],\
             ["@testing-library/user-event", "virtual:1496ece63da824a9ba3363ceca21345f6b059faf7a1ccfe083db90341c958a7ea684a0b5a1b7d276f323cd149544eda95dcababae0b58e83581e013b60efbb29#npm:13.5.0"],\
+            ["date-fns", "npm:2.29.3"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:1496ece63da824a9ba3363ceca21345f6b059faf7a1ccfe083db90341c958a7ea684a0b5a1b7d276f323cd149544eda95dcababae0b58e83581e013b60efbb29#npm:18.2.0"],\
             ["react-scripts", "virtual:1496ece63da824a9ba3363ceca21345f6b059faf7a1ccfe083db90341c958a7ea684a0b5a1b7d276f323cd149544eda95dcababae0b58e83581e013b60efbb29#npm:5.0.1"],\
